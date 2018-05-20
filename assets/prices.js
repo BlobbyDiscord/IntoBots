@@ -12,5 +12,9 @@ function calcPrice() {
        price += 7;
    }
    price += $("#extra").val() * 5;
-   $("#price").html("~$" + price);
+   if ($("#extra").val() > 3 || $("#extra").val() < 0) {
+       $("#price").html("err");
+   } else {
+       $("#price").html("~$" + price);
+    }
 }
