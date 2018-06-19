@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@font-face {
+    src: url("product-sans.ttf");
+    font-family: 'Product Sans';
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+}
+
+h1,h2,h3,h4 {
+    color: black;
+    font-family: 'Product Sans';
+    text-align: center;
+    font-weight: 400;
+}
+
+.nav {
+    padding: 26px 13px;
+    padding-top: 23px;
+    background: #15064A linear-gradient(135deg, #48039B, #15064A);
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgba(255,255,255,.8);
+    padding: 10px;
+}
+
+.nav a.brand {
+    font-family: 'Product Sans';
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.nav .right {
+    float: right;
+}
+
+.body-content {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.body-content a {
+    text-decoration: none;
+    border-bottom: .5px dotted;
+    color: #2196F3;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 230px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card .header {
+    height: 100px;
+    position: relative;
+    background-color: #48039B;
+}
+
+.card .header h3 {
+    color: rgba(255,255,255,.8);
+    margin-bottom: 0;
+}
+
+.card .bottom, .card .header h3 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.card .header img {
+    position: absolute;
+    right: 15px;
+    bottom: -16px;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #e2e1e0;
+}
+
+.card .content {
+    font-size: .9em;
+    padding: 1rem;
+}
+
+.card .bottom a {
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(66, 165, 245), rgb(41, 121, 255)) repeat scroll 0% 0%;
+    color: white !important;
+    text-decoration: none;
+    padding: 12px 32px;
+    box-shadow: rgba(66, 165, 245, 0.5) 0px 6px 15px;
+    cursor: pointer;
+    border-bottom: none !important;
+}

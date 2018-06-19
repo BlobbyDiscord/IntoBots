@@ -3,126 +3,38 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta id="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>disgd</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/zenscroll/4.0.2/zenscroll-min.js" integrity="sha256-P3WAuks0zjjUNJHAQsa3qo5fMU1+d3flCMCI9vGK9So=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/landing.css">
+    <title>Akira - Web Developer & Software Engineer</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 </head>
-<body onload="$('.indeterminate').css('display', 'none')">
-    <div class="progress"><div class="indeterminate"></div></div>
-    <div class="announce">We no longer offer free websites as of May 15th, 2018.</div>
-    <nav>
-        <span class="sep-right">disgd</span><a href="about.html">About</a><a href="#features">Features</a><a href="#contact">Contact</a>
-        <!--<span class="sep-left" onclick="toggleNav()"><img src="https://discordapp.com/assets/0e291f67c9274a1abdddeb3fd919cbaa.png"> dabberoni#1234 <i class="material-icons" id="dropdown-icon">keyboard_arrow_down</i></span>-->
-    </nav>
-    <!--<div id="dropdown">
-        <div class="item">
-            <i class="material-icons">dashboard</i> Servers
-        </div>
-        <div class="item">
-            <i class="material-icons">settings</i> Settings
-        </div>
-        <div class="divider"></div>
-        <div class="item">
-            <i class="material-icons">exit_to_app</i> Log out
-        </div>
+<body>
+    <div class="nav">
+        <a href="/" class="brand">Akira</a>
+        <span class="right">
+            <a href="contact.html">Contact</a>
+            <a href="projects.html">Projects</a>
+        </span>
     </div>
-    <script src="assets/nav.js"></script>-->
-    <header>
-        <h1>disgd</h1>
-        <h2>Quality, professional, and stylish websites for Discord bots.</h2>
-        <p>
-            <a class="button" href="#features">Learn More</a>
-            <br><br>
-            <a href="https://discord.gg/6N4KJ93"><i class="fab fa-discord"></i></a>
-            <a href="https://github.com/devakira"><i class="fab fa-github"></i></a>
-            <a href="https://paypal.me/akireee"><i class="fab fa-paypal"></i></a>
-            <a href="https://twitter.com/AkiraDev_"><i class="fab fa-twitter"></i></a>
-        </p>
-    </header>
-    <div class="filler"></div>
-    <div class="section" id="features">
-        <h2>Stand out from the crowd</h2>
-        <p>Have a unique website design to show potential users that your bot is something different.</p>
-    </div>
-    <div class="section">
-        <h2>Create an impressive user experience</h2>
-        <p>Keep users on your website to show off your bot's features and show your users what to expect.</p>
-    </div>
-    <div class="section">
-        <h2>Lots of added perks</h2>
-        <p>We offer a free .disgd.pw subdomain (with SSL!) so that you don't have to buy your own, and get free 24/7 hosting.</p>
-    </div>
-    <div class="filler"></div>
-    <div class="section">
-        <h2>We've worked with the best</h2>
-        <div class="flex">
-            <div class="card">
-                <img class="avatar" src="https://images.discordapp.net/avatars/399315651338043392/cfae149561ab9bf73378ab4a72ab058c.png?size=128" alt="Monika's avatar">
-                <h3>Monika</h3>
-                <p>An entertaining Discord bot made to sharpen your server!</p>
-                <p><a href="https://monikabot.pw" class="body-link" target="_blank">monikabot.pw</a></p>
-            </div>
-            <div class="card">
-                <img class="avatar" src="https://images.discordapp.net/avatars/331609909823012875/df0b8d4319ca6c42dae8521a18d3c5bf.png?size=128" alt="Trinity's avatar">
-                <h3>Trinity</h3>
-                <p>Trinity is a fully customizable discord bot! It has moderation, music, auto role, welcomer and more!</p>
-                <p><a href="https://trinity.disgd.pw" class="body-link" target="_blank">trinity.disgd.pw</a></p>
-            </div>
-        </div>
-        <div class="flex">
-            <div class="card">
-                <img class="avatar" src="https://images.discordapp.net/avatars/401826937938640896/6acc526e502f206a2bb958e1e4dc2a79.png?size=128" alt="Wings's avatar" style="border-radius:0">
-                <h3>Wings</h3>
-                <p>Wings is an easy-to-use, functional Discord bot with fun, music, memes, NSFW, images, and more!</p>
-                <p><a href="http://wingsbot.me" class="body-link" target="_blank">wingsbot.me</a></p>
-            </div>
-            <div class="card">
-                <img class="avatar" src="https://images.discordapp.net/avatars/375805687529209857/7528f050ec2521877bcfa1abe3cfbab4.png?size=128" alt="TwitchBot's avatar">
-                <h3>TwitchBot</h3>
-                <p>Browse Twitch, get stream notifications, and listen to streams right from your Discord server.</p>
-                <p><a href="https://twitch.disgd.pw" class="body-link" target="_blank">twitch.disgd.pw</a></p>
-            </div>
-        </div>
-        <div class="flex">
-            <div class="card">
-                <img class="avatar" src="https://images.discordapp.net/avatars/313929155496378371/761f8bd1b742fd3d240d9a3bb2aa6690.png?size=128" alt="AekaBot's avatar">
-                <h3>AekaBot</h3>
-                <p>A multi-purpose discord bot with features such as music, polls, nsfw/lewd commands and much more!</p>
-                <p><a href="https://aekabot.com" class="body-link" target="_blank">aekabot.com</a></p>
-            </div>
-        </div>
-    </div>
-    <div class="filler"></div>
-    <div class="section">
-        <h2>Affordable prices</h2>
-        <p>We make all of our websites for under $50 USD. Choose what you want here, and you'll get an estimate on what your website can be made for.</p>
-        <form>
-            <p><label class="container"><input type="checkbox" id="landing"><span class="checkmark"></span></label>&emsp;&emsp;&emsp;landing page <span style="font-size:80%">+10$</span></p>
-            <p><label class="container"><input type="checkbox" id="cmds"><span class="checkmark"></span></label>&emsp;&emsp;&emsp;commands page <span style="font-size:80%">+7$</span></p>
-            <p><label class="container"><input type="checkbox" id="about"><span class="checkmark"></span></label>&emsp;&emsp;&emsp;about page <span style="font-size:80%">+5$</span></p>
-            <p><label class="container"><input type="checkbox" id="404"><span class="checkmark"></span></label>&emsp;&emsp;&emsp;404 page <span style="font-size:80%">+3$</span></p>
-            <p><label class="container"><input type="checkbox" id="template"><span class="checkmark"></span></label>&emsp;&emsp;&emsp;HTML + CSS template <span style="font-size:80%">+7$</span></p>
-            <p>Extra pages <input type="number" value="0" min="0" max="3" id="extra"> <span style="font-size:80%">+~5$ ea. (depends on content)</span></p>
-            <p>
-                <a class="button" href="javascript:calcPrice()">Calculate Price</a>
-                <i class="material-icons" style="font-size:150%;position:relative;top:6px;">arrow_right_alt</i>
-                <span id="price">~$0</span>
+    <div class="body-container">
+        <div class="text-content">
+            <h1>Freelance Web Developer &amp;&nbsp;<br>Open-Source Software Engineer</h1>
+            <p class="social-icons">
+                <a href="https://github.com/devakira"><i class="fab fa-github"></i></a>
+                <a href="https://discord.me/konomi"><i class="fab fa-discord"></i></a>
+                <a href="https://twitter.com/AkiraDev_"><i class="fab fa-twitter"></i></a>
+                <a href="https://steamcommunity.com/id/akireee/"><i class="fab fa-steam"></i></a>
+                <a href="https://twitch.tv/ow_r3aper"><i class="fab fa-twitch"></i></a>
             </p>
-            <script async src="assets/prices.js"></script>
-        </form>
+            <p style="margin:3em 0;">
+                <a href="contact.html" class="button">Contact Me</a>
+            </p>
+        </div>
+        <img src="assets/mac.svg">
     </div>
-    <div class="filler"></div>
-    <div class="section" id="contact">
-        <h2>Get in touch with us</h2>
-        <p>Interested in a site from us? That's great! You can get in touch with us through our <a href="https://discord.gg/6N4KJ93">Discord server</a> or you can DM Akira#4587 directly. Or, you can email us at <a href="mailto:akira@monikabot.pw">akira@monikabot.pw</a>.</p>
+    <div class="attribution">
+        Website copyright &copy; 2018 Akira. Computer art by <a href="https://www.uplabs.com/bhoolkukhush79" target="_blank">Khushboo Rathod</a>.
     </div>
-    <div class="filler"></div>
-    <footer>
-        disgd.pw is a copyright (C) 2018 of <a href="https://konomi.disgd.pw">Konomi Developers</a>.
-    </footer>
 </body>
 </html>
